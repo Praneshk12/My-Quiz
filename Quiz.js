@@ -36,7 +36,7 @@ class Quiz {
     textSize(30);
     text("Results of the Quiz",340,50);
     text("----------------------",320,65);
-    contestant.getPlayerInfo();
+    Contestant.getPlayerInfo();
     if(allContestants !== undefined){
       debugger;
       var display_Answers = 230;
